@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BeaconDemo</string>
+    <string name="title_activity_distance_beacon">DistanceBeaconActivity</string>
+    <string name="title_activity_list_beacon">ListBeaconActivity</string>
+</resources>

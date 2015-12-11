@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView android:tag="mac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="MAC"
+        android:id="@+id/macTextView"
+        android:textSize="30dp" />
+
+    <TextView android:tag="major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Major"
+        android:id="@+id/majorTextView"
+        android:textSize="30dp" />
+
+    <TextView
+        android:tag="minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Minor"
+        android:id="@+id/minorTextView"
+        android:textSize="30dp" />
+
+</LinearLayout>
