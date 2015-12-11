@@ -18,6 +18,10 @@
         <activity
             android:name=".ListBeaconActivity"
             android:label="@string/title_activity_list_beacon"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListEddystoneActivity"
+            android:label="@string/title_activity_list_eddystone"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
