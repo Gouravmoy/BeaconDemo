@@ -18,16 +18,19 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.distance_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                Intent intent=new Intent(MainActivity.this,ListBeaconActivity.class);
+                Intent intent = new Intent(MainActivity.this, ListBeaconActivity.class);
                 startActivity(intent);
 
             }
         });
+        findViewById(R.id.eddystone_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListEddystoneActivity.class);
+                startActivity(intent);
 
-
-
-
+            }
+        });
 
 
     }

@@ -12,4 +12,11 @@
     tools:context="com.example.lenovo.beacondemo.ListEddystoneActivity"
     tools:showIn="@layout/activity_list_eddystone">
 
+    <ListView
+        android:id="@+id/device_list_eddystone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
 </RelativeLayout>

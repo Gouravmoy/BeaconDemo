@@ -39,6 +39,7 @@ public class ListBeaconActivity extends AppCompatActivity {
         Log.i(TAG, "Inside onCreate ");
 
         super.onCreate(savedInstanceState);
+        //hello
         setContentView(R.layout.activity_list_beacon);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
